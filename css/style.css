@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Oswald", sans-serif;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+main {
+    font-family: "Oswald", sans-serif;
+    background-color:teal
+}
+
+.portada {
+    justify-content: center;
+}
+
+.portada img:hover{
+    filter:drop-shadow(16px 16px 10px black);
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+
+.card-body :hover{
+    color:antiquewhite
+}
+
+.card-body {
+    background-color:teal
+}
+
+.navbar-brand :hover{
+    color: black;
+}
+
+.card-text{
+    color:orange
+}
+.card-text ::first-letter{
+    font-size:large
+}
+section  {
+    background-color: orange;
+}
+
+.footer {
+    font-family: "Oswald", sans-serif;
+}
