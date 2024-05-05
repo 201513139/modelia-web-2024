@@ -1,55 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-header {
-    font-family: "Oswald", sans-serif;
-}
+header section li a {
+  color: #070707; }
 
-.navbar-brand {
-    color: black;
-}
+header section li a:hover {
+  color: #3704f1; }
+
+header .navbar {
+  font-family: "Oswald", sans-serif; }
+  header .navbar li a {
+    color: black; }
+  header .navbar li a:hover {
+    color: #3704f1; }
 
 main {
-    font-family: "Oswald", sans-serif;
-    background-color:teal
-}
+  font-family: "Oswald", sans-serif;
+  background-color: #68D2E8; }
 
-.portada {
-    justify-content: center;
-}
+section h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffff00 0%, #ff9900 100%); }
 
-.portada img:hover{
-    filter:drop-shadow(16px 16px 10px black);
-    justify-content: center;
-    display: flex;
-    align-content: center;
-}
+section .card {
+  background: #FFC100; }
 
-.card-body :hover{
-    color:antiquewhite
-}
-
-.card-body {
-    background-color:teal
-}
-
-.navbar-brand :hover{
-    color: black;
-}
-
-.card-text{
-    color:orange
-}
-.card-text ::first-letter{
-    font-size:large
-}
-section  {
-    background-color: orange;
-}
-
-.footer {
-    font-family: "Oswald", sans-serif;
-}
+footer {
+  background: #FC4100; }
+  footer h3 {
+    font-family: "Oswald", sans-serif; }
+  footer p {
+    font-family: "Oswald", sans-serif; }
